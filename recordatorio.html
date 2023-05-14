@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="recordatorio.css">
+</head>
+<body>
+    <div class="reminder-section">
+        <h2>Recordatorios</h2>
+        <form>
+          <label for="new-reminder">Agregar nuevo recordatorio:</label>
+          <input type="text" id="new-reminder" name="new-reminder">
+          <button type="button" onclick="addReminder()">Agregar</button>
+        </form>
+        <ul id="reminder-list">
+          <li><input type="checkbox" id="reminder1"><label for="reminder1">Reunión de equipo a las 10 am</label></li> 
+          <li><input type="checkbox" id="reminder2"><label for="reminder2">Enviar informe de ventas a Gerencia</label></li>
+          <li><input type="checkbox" id="reminder3"><label for="reminder3">Llamar a cliente para programar demostración</label></li> 
+        </ul>
+      </div>
+      <a href="index.html">Volver a la página principal</a>
+      <script src="recordatorio.js"></script>        
+</body>
+</html>
+  

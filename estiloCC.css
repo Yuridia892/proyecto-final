@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+	background: -webkit-gradient(linear, left top, right top, from(rgb(236, 126, 126)), to(rgb(151, 166, 243)));
+	 text-align: center 
+  };
+body{
+    margin:0;
+	padding:0;
+	font-family: sans-serif;
+	background: #60acc5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fbfbfb;
+}
+h1{
+    margin: 0 0 30px;
+	padding: 0;
+	color: #d78a8a;
+	text-align: center;
+    
+    
+}
+
+  
+.form-register{
+    width: 200%;
+    height: 200%;
+    justify-content: center;
+    right: 20%;
+
+    max-width: 500px;
+    background: #630145;
+    border-radius: 19px;
+    width: 50%; /* Establece el ancho del contenedor del formulario */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  
+}
+.form__titulo{
+    color: #f5b7d9;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom: 5px solid rgb(2, 69, 94);
+}
+.contenedor-inputs{
+    padding: 15px 30px;
+    color: #070606;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+input{
+    width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+.input-48{
+    width: 48%;
+}
+
+.input-100{
+    width: 100;
+}
+
+.btn-enviar{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #dae8ef;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    background: #9cadbb;
+	color: #fff;
+    border-radius: 5px;
+	box-shadow: 0 0 5px #c4e4d2,
+				0 0 25px #b7d3ce,
+				0 0 50px #8FC4B9,
+				0 0 100px #81C89E;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+.form__link{
+    width: 100%;
+    margin: 7;
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    color: #070606;
+}
